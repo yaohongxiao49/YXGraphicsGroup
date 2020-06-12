@@ -16,22 +16,19 @@
 @property (nonatomic, strong) UILabel *desLab;
 @property (nonatomic, strong) YXPieChartGraphicsView *pieChartGraphicsView;
 @property (nonatomic, strong) YXPicChartGraphicsShowCollView *showCollView;
-@property (nonatomic, copy) NSArray *pieChartGraphicsArr;
 
 @end
 
 @implementation YXPicChartGraphicsShowView
 
-- (instancetype)initWithFrame:(CGRect)frame arr:(NSArray <YXPicChartGraphicsModel *>*)arr title:(NSString *)title {
+- (instancetype)initWithFrame:(CGRect)frame arr:(nullable NSArray <YXPicChartGraphicsModel *>*)arr title:(NSString *)title {
     self = [super initWithFrame:frame];
     
     if (self) {
         self.layer.masksToBounds = YES;
         self.userInteractionEnabled = YES;
         _title = title;
-        _pieChartGraphicsArr = [NSArray arrayWithArray:arr];
-    
-        [self initView];
+        if (arr.count != 0) self.pieChartGraphicsArr = [NSArray arrayWithArray:arr];
     }
     return self;
 }
@@ -80,6 +77,14 @@
     if (CGRectContainsPoint(_desView.frame, point)) {
         [self removeMaskView];
     }
+}
+
+#pragma mark - setting
+- (void)setPieChartGraphicsArr:(NSArray *)pieChartGraphicsArr {
+    
+    _pieChartGraphicsArr = pieChartGraphicsArr;
+    
+    [self initView];
 }
 
 #pragma mark - 初始化视图

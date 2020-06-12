@@ -13,7 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YXPicChartGraphicsShowView : UIView
 
-- (instancetype)initWithFrame:(CGRect)frame arr:(NSArray <YXPicChartGraphicsModel *>*)arr title:(NSString *)title;
+@property (nonatomic, copy) NSArray *pieChartGraphicsArr;
+- (instancetype)initWithFrame:(CGRect)frame arr:(nullable NSArray <YXPicChartGraphicsModel *>*)arr title:(NSString *)title;
 
 @end
 
