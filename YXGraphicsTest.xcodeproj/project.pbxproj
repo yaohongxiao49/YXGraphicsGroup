@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847FB882249359F20083A71A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB881249359F20083A71A /* AppDelegate.m */; };
+		847FB885249359F20083A71A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB884249359F20083A71A /* SceneDelegate.m */; };
+		847FB888249359F20083A71A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB887249359F20083A71A /* ViewController.m */; };
+		847FB88B249359F20083A71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847FB889249359F20083A71A /* Main.storyboard */; };
+		847FB88D249359F40083A71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847FB88C249359F40083A71A /* Assets.xcassets */; };
+		847FB890249359F40083A71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847FB88E249359F40083A71A /* LaunchScreen.storyboard */; };
+		847FB893249359F40083A71A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB892249359F40083A71A /* main.m */; };
+		847FB89D249359F50083A71A /* YXGraphicsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB89C249359F50083A71A /* YXGraphicsTestTests.m */; };
+		847FB8A8249359F50083A71A /* YXGraphicsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8A7249359F50083A71A /* YXGraphicsTestUITests.m */; };
+		847FB8B924935BCA0083A71A /* YXPieChartGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8B824935BCA0083A71A /* YXPieChartGraphicsView.m */; };
+		847FB8BC24935C240083A71A /* YXPicChartGraphicsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8BB24935C240083A71A /* YXPicChartGraphicsModel.m */; };
+		847FB8BF2493656F0083A71A /* YXPicChartGraphicsShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8BE2493656F0083A71A /* YXPicChartGraphicsShowView.m */; };
+		847FB8C22493706D0083A71A /* YXPicChartGraphicsShowCollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8C12493706D0083A71A /* YXPicChartGraphicsShowCollView.m */; };
+		847FB8C6249370A00083A71A /* YXPicChartGraphicsShowCollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8C4249370A00083A71A /* YXPicChartGraphicsShowCollCell.m */; };
+		847FB8C7249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847FB8C5249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847FB899249359F50083A71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847FB875249359F20083A71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847FB87C249359F20083A71A;
+			remoteInfo = YXGraphicsTest;
+		};
+		847FB8A4249359F50083A71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847FB875249359F20083A71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847FB87C249359F20083A71A;
+			remoteInfo = YXGraphicsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847FB87D249359F20083A71A /* YXGraphicsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXGraphicsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847FB880249359F20083A71A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		847FB881249359F20083A71A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		847FB883249359F20083A71A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		847FB884249359F20083A71A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		847FB886249359F20083A71A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		847FB887249359F20083A71A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		847FB88A249359F20083A71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847FB88C249359F40083A71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847FB88F249359F40083A71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847FB891249359F40083A71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847FB892249359F40083A71A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847FB898249359F50083A71A /* YXGraphicsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXGraphicsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847FB89C249359F50083A71A /* YXGraphicsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGraphicsTestTests.m; sourceTree = "<group>"; };
+		847FB89E249359F50083A71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847FB8A3249359F50083A71A /* YXGraphicsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXGraphicsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847FB8A7249359F50083A71A /* YXGraphicsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGraphicsTestUITests.m; sourceTree = "<group>"; };
+		847FB8A9249359F50083A71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847FB8B724935BCA0083A71A /* YXPieChartGraphicsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPieChartGraphicsView.h; sourceTree = "<group>"; };
+		847FB8B824935BCA0083A71A /* YXPieChartGraphicsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPieChartGraphicsView.m; sourceTree = "<group>"; };
+		847FB8BA24935C240083A71A /* YXPicChartGraphicsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPicChartGraphicsModel.h; sourceTree = "<group>"; };
+		847FB8BB24935C240083A71A /* YXPicChartGraphicsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPicChartGraphicsModel.m; sourceTree = "<group>"; };
+		847FB8BD2493656F0083A71A /* YXPicChartGraphicsShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPicChartGraphicsShowView.h; sourceTree = "<group>"; };
+		847FB8BE2493656F0083A71A /* YXPicChartGraphicsShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPicChartGraphicsShowView.m; sourceTree = "<group>"; };
+		847FB8C02493706D0083A71A /* YXPicChartGraphicsShowCollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPicChartGraphicsShowCollView.h; sourceTree = "<group>"; };
+		847FB8C12493706D0083A71A /* YXPicChartGraphicsShowCollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPicChartGraphicsShowCollView.m; sourceTree = "<group>"; };
+		847FB8C3249370A00083A71A /* YXPicChartGraphicsShowCollCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPicChartGraphicsShowCollCell.h; sourceTree = "<group>"; };
+		847FB8C4249370A00083A71A /* YXPicChartGraphicsShowCollCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPicChartGraphicsShowCollCell.m; sourceTree = "<group>"; };
+		847FB8C5249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YXPicChartGraphicsShowCollCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847FB87A249359F20083A71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847FB895249359F40083A71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847FB8A0249359F50083A71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847FB874249359F20083A71A = {
+			isa = PBXGroup;
+			children = (
+				847FB87F249359F20083A71A /* YXGraphicsTest */,
+				847FB89B249359F50083A71A /* YXGraphicsTestTests */,
+				847FB8A6249359F50083A71A /* YXGraphicsTestUITests */,
+				847FB87E249359F20083A71A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847FB87E249359F20083A71A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847FB87D249359F20083A71A /* YXGraphicsTest.app */,
+				847FB898249359F50083A71A /* YXGraphicsTestTests.xctest */,
+				847FB8A3249359F50083A71A /* YXGraphicsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847FB87F249359F20083A71A /* YXGraphicsTest */ = {
+			isa = PBXGroup;
+			children = (
+				847FB8B524935BBC0083A71A /* YXGraphicsView */,
+				847FB880249359F20083A71A /* AppDelegate.h */,
+				847FB881249359F20083A71A /* AppDelegate.m */,
+				847FB883249359F20083A71A /* SceneDelegate.h */,
+				847FB884249359F20083A71A /* SceneDelegate.m */,
+				847FB886249359F20083A71A /* ViewController.h */,
+				847FB887249359F20083A71A /* ViewController.m */,
+				847FB889249359F20083A71A /* Main.storyboard */,
+				847FB88C249359F40083A71A /* Assets.xcassets */,
+				847FB88E249359F40083A71A /* LaunchScreen.storyboard */,
+				847FB891249359F40083A71A /* Info.plist */,
+				847FB892249359F40083A71A /* main.m */,
+			);
+			path = YXGraphicsTest;
+			sourceTree = "<group>";
+		};
+		847FB89B249359F50083A71A /* YXGraphicsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				847FB89C249359F50083A71A /* YXGraphicsTestTests.m */,
+				847FB89E249359F50083A71A /* Info.plist */,
+			);
+			path = YXGraphicsTestTests;
+			sourceTree = "<group>";
+		};
+		847FB8A6249359F50083A71A /* YXGraphicsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847FB8A7249359F50083A71A /* YXGraphicsTestUITests.m */,
+				847FB8A9249359F50083A71A /* Info.plist */,
+			);
+			path = YXGraphicsTestUITests;
+			sourceTree = "<group>";
+		};
+		847FB8B524935BBC0083A71A /* YXGraphicsView */ = {
+			isa = PBXGroup;
+			children = (
+				847FB8B624935BBC0083A71A /* YXPieChartGraphicsView */,
+			);
+			path = YXGraphicsView;
+			sourceTree = "<group>";
+		};
+		847FB8B624935BBC0083A71A /* YXPieChartGraphicsView */ = {
+			isa = PBXGroup;
+			children = (
+				847FB8BD2493656F0083A71A /* YXPicChartGraphicsShowView.h */,
+				847FB8BE2493656F0083A71A /* YXPicChartGraphicsShowView.m */,
+				847FB8C02493706D0083A71A /* YXPicChartGraphicsShowCollView.h */,
+				847FB8C12493706D0083A71A /* YXPicChartGraphicsShowCollView.m */,
+				847FB8C3249370A00083A71A /* YXPicChartGraphicsShowCollCell.h */,
+				847FB8C4249370A00083A71A /* YXPicChartGraphicsShowCollCell.m */,
+				847FB8C5249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib */,
+				847FB8B724935BCA0083A71A /* YXPieChartGraphicsView.h */,
+				847FB8B824935BCA0083A71A /* YXPieChartGraphicsView.m */,
+				847FB8BA24935C240083A71A /* YXPicChartGraphicsModel.h */,
+				847FB8BB24935C240083A71A /* YXPicChartGraphicsModel.m */,
+			);
+			path = YXPieChartGraphicsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847FB87C249359F20083A71A /* YXGraphicsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847FB8AC249359F50083A71A /* Build configuration list for PBXNativeTarget "YXGraphicsTest" */;
+			buildPhases = (
+				847FB879249359F20083A71A /* Sources */,
+				847FB87A249359F20083A71A /* Frameworks */,
+				847FB87B249359F20083A71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXGraphicsTest;
+			productName = YXGraphicsTest;
+			productReference = 847FB87D249359F20083A71A /* YXGraphicsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847FB897249359F40083A71A /* YXGraphicsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847FB8AF249359F50083A71A /* Build configuration list for PBXNativeTarget "YXGraphicsTestTests" */;
+			buildPhases = (
+				847FB894249359F40083A71A /* Sources */,
+				847FB895249359F40083A71A /* Frameworks */,
+				847FB896249359F40083A71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847FB89A249359F50083A71A /* PBXTargetDependency */,
+			);
+			name = YXGraphicsTestTests;
+			productName = YXGraphicsTestTests;
+			productReference = 847FB898249359F50083A71A /* YXGraphicsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847FB8A2249359F50083A71A /* YXGraphicsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847FB8B2249359F50083A71A /* Build configuration list for PBXNativeTarget "YXGraphicsTestUITests" */;
+			buildPhases = (
+				847FB89F249359F50083A71A /* Sources */,
+				847FB8A0249359F50083A71A /* Frameworks */,
+				847FB8A1249359F50083A71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847FB8A5249359F50083A71A /* PBXTargetDependency */,
+			);
+			name = YXGraphicsTestUITests;
+			productName = YXGraphicsTestUITests;
+			productReference = 847FB8A3249359F50083A71A /* YXGraphicsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847FB875249359F20083A71A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = August;
+				TargetAttributes = {
+					847FB87C249359F20083A71A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					847FB897249359F40083A71A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 847FB87C249359F20083A71A;
+					};
+					847FB8A2249359F50083A71A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 847FB87C249359F20083A71A;
+					};
+				};
+			};
+			buildConfigurationList = 847FB878249359F20083A71A /* Build configuration list for PBXProject "YXGraphicsTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847FB874249359F20083A71A;
+			productRefGroup = 847FB87E249359F20083A71A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847FB87C249359F20083A71A /* YXGraphicsTest */,
+				847FB897249359F40083A71A /* YXGraphicsTestTests */,
+				847FB8A2249359F50083A71A /* YXGraphicsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847FB87B249359F20083A71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847FB890249359F40083A71A /* LaunchScreen.storyboard in Resources */,
+				847FB88D249359F40083A71A /* Assets.xcassets in Resources */,
+				847FB8C7249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib in Resources */,
+				847FB88B249359F20083A71A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847FB896249359F40083A71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847FB8A1249359F50083A71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847FB879249359F20083A71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847FB8B924935BCA0083A71A /* YXPieChartGraphicsView.m in Sources */,
+				847FB8BC24935C240083A71A /* YXPicChartGraphicsModel.m in Sources */,
+				847FB8C22493706D0083A71A /* YXPicChartGraphicsShowCollView.m in Sources */,
+				847FB888249359F20083A71A /* ViewController.m in Sources */,
+				847FB8BF2493656F0083A71A /* YXPicChartGraphicsShowView.m in Sources */,
+				847FB882249359F20083A71A /* AppDelegate.m in Sources */,
+				847FB893249359F40083A71A /* main.m in Sources */,
+				847FB8C6249370A00083A71A /* YXPicChartGraphicsShowCollCell.m in Sources */,
+				847FB885249359F20083A71A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847FB894249359F40083A71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847FB89D249359F50083A71A /* YXGraphicsTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847FB89F249359F50083A71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847FB8A8249359F50083A71A /* YXGraphicsTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847FB89A249359F50083A71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847FB87C249359F20083A71A /* YXGraphicsTest */;
+			targetProxy = 847FB899249359F50083A71A /* PBXContainerItemProxy */;
+		};
+		847FB8A5249359F50083A71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847FB87C249359F20083A71A /* YXGraphicsTest */;
+			targetProxy = 847FB8A4249359F50083A71A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		847FB889249359F20083A71A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847FB88A249359F20083A71A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847FB88E249359F40083A71A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847FB88F249359F40083A71A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847FB8AA249359F50083A71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		847FB8AB249359F50083A71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847FB8AD249359F50083A71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HSQ24Z864;
+				INFOPLIST_FILE = YXGraphicsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.YXGraphicsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847FB8AE249359F50083A71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2HSQ24Z864;
+				INFOPLIST_FILE = YXGraphicsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.YXGraphicsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		847FB8B0249359F50083A71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXGraphicsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.YXGraphicsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXGraphicsTest.app/YXGraphicsTest";
+			};
+			name = Debug;
+		};
+		847FB8B1249359F50083A71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXGraphicsTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.YXGraphicsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXGraphicsTest.app/YXGraphicsTest";
+			};
+			name = Release;
+		};
+		847FB8B3249359F50083A71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXGraphicsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.YXGraphicsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXGraphicsTest;
+			};
+			name = Debug;
+		};
+		847FB8B4249359F50083A71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXGraphicsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yhx.YXGraphicsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXGraphicsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847FB878249359F20083A71A /* Build configuration list for PBXProject "YXGraphicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847FB8AA249359F50083A71A /* Debug */,
+				847FB8AB249359F50083A71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847FB8AC249359F50083A71A /* Build configuration list for PBXNativeTarget "YXGraphicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847FB8AD249359F50083A71A /* Debug */,
+				847FB8AE249359F50083A71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847FB8AF249359F50083A71A /* Build configuration list for PBXNativeTarget "YXGraphicsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847FB8B0249359F50083A71A /* Debug */,
+				847FB8B1249359F50083A71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847FB8B2249359F50083A71A /* Build configuration list for PBXNativeTarget "YXGraphicsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847FB8B3249359F50083A71A /* Debug */,
+				847FB8B4249359F50083A71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847FB875249359F20083A71A /* Project object */;
+}
