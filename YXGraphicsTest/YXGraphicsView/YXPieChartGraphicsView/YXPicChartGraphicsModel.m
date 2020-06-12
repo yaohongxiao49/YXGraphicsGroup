@@ -14,11 +14,11 @@
     self = [super init];
     
     if (self) {
-        _title = [dic objectForKey:@"title"];
-        _descript = [dic objectForKey:@"descript"];
-        _count = [[dic objectForKey:@"count"] floatValue];
-        _percent = [[dic objectForKey:@"percent"] floatValue];
-        _color = [dic objectForKey:@"color"];
+        _title = [dic objectForKey:kGraphicsTitle];
+        _descript = [dic objectForKey:kGraphicsDescript];
+        _count = [[dic objectForKey:kGraphicsCount] floatValue];
+        _percent = [[dic objectForKey:kGraphicsPercent] floatValue];
+        _color = [dic objectForKey:kGraphicsColor];
     }
     return self;
 }

@@ -11,6 +11,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define kGraphicsTitle @"kGraphicsTitle"
+#define kGraphicsDescript @"kGraphicsDescript"
+#define kGraphicsCount @"kGraphicsCount"
+#define kGraphicsPercent @"kGraphicsPercent"
+#define kGraphicsColor @"kGraphicsColor"
+
 @interface YXPicChartGraphicsModel : NSObject
 
 /** 标题 */
