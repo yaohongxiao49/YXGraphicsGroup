@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840E608324B43F2300B8D77C /* YXPieChartLineGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E608224B43F2300B8D77C /* YXPieChartLineGraphicsView.m */; };
+		840E608624B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E608524B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.m */; };
+		840E608924B444B700B8D77C /* YXPieChartLineGraphicsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 840E608824B444B700B8D77C /* YXPieChartLineGraphicsModel.m */; };
 		847FB882249359F20083A71A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB881249359F20083A71A /* AppDelegate.m */; };
 		847FB885249359F20083A71A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB884249359F20083A71A /* SceneDelegate.m */; };
 		847FB888249359F20083A71A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB887249359F20083A71A /* ViewController.m */; };
@@ -42,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840E608124B43F2300B8D77C /* YXPieChartLineGraphicsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPieChartLineGraphicsView.h; sourceTree = "<group>"; };
+		840E608224B43F2300B8D77C /* YXPieChartLineGraphicsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPieChartLineGraphicsView.m; sourceTree = "<group>"; };
+		840E608424B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPieChartLineGraphicsCenterView.h; sourceTree = "<group>"; };
+		840E608524B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPieChartLineGraphicsCenterView.m; sourceTree = "<group>"; };
+		840E608724B444B700B8D77C /* YXPieChartLineGraphicsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPieChartLineGraphicsModel.h; sourceTree = "<group>"; };
+		840E608824B444B700B8D77C /* YXPieChartLineGraphicsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPieChartLineGraphicsModel.m; sourceTree = "<group>"; };
 		847FB87D249359F20083A71A /* YXGraphicsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXGraphicsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847FB880249359F20083A71A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		847FB881249359F20083A71A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +107,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840E608024B43E6000B8D77C /* YXPieChartLineGraphicsView */ = {
+			isa = PBXGroup;
+			children = (
+				840E608124B43F2300B8D77C /* YXPieChartLineGraphicsView.h */,
+				840E608224B43F2300B8D77C /* YXPieChartLineGraphicsView.m */,
+				840E608424B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.h */,
+				840E608524B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.m */,
+				840E608724B444B700B8D77C /* YXPieChartLineGraphicsModel.h */,
+				840E608824B444B700B8D77C /* YXPieChartLineGraphicsModel.m */,
+			);
+			path = YXPieChartLineGraphicsView;
+			sourceTree = "<group>";
+		};
 		847FB874249359F20083A71A = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +180,7 @@
 		847FB8B524935BBC0083A71A /* YXGraphicsView */ = {
 			isa = PBXGroup;
 			children = (
+				840E608024B43E6000B8D77C /* YXPieChartLineGraphicsView */,
 				847FB8B624935BBC0083A71A /* YXPieChartGraphicsView */,
 			);
 			path = YXGraphicsView;
@@ -314,9 +337,12 @@
 			files = (
 				847FB8B924935BCA0083A71A /* YXPieChartGraphicsView.m in Sources */,
 				847FB8BC24935C240083A71A /* YXPicChartGraphicsModel.m in Sources */,
+				840E608624B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.m in Sources */,
+				840E608324B43F2300B8D77C /* YXPieChartLineGraphicsView.m in Sources */,
 				847FB8C22493706D0083A71A /* YXPicChartGraphicsShowCollView.m in Sources */,
 				847FB888249359F20083A71A /* ViewController.m in Sources */,
 				847FB8BF2493656F0083A71A /* YXPicChartGraphicsShowView.m in Sources */,
+				840E608924B444B700B8D77C /* YXPieChartLineGraphicsModel.m in Sources */,
 				847FB882249359F20083A71A /* AppDelegate.m in Sources */,
 				847FB893249359F40083A71A /* main.m in Sources */,
 				847FB8C6249370A00083A71A /* YXPicChartGraphicsShowCollCell.m in Sources */,
