@@ -25,6 +25,8 @@
 		847FB8C22493706D0083A71A /* YXPicChartGraphicsShowCollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8C12493706D0083A71A /* YXPicChartGraphicsShowCollView.m */; };
 		847FB8C6249370A00083A71A /* YXPicChartGraphicsShowCollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FB8C4249370A00083A71A /* YXPicChartGraphicsShowCollCell.m */; };
 		847FB8C7249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847FB8C5249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib */; };
+		84F26A0724ED082700769DAE /* YXGraphicsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F26A0624ED082700769DAE /* YXGraphicsVC.m */; };
+		84F26A0A24ED086100769DAE /* YXGraphicTransformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F26A0924ED086100769DAE /* YXGraphicTransformationVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,10 @@
 		847FB8C3249370A00083A71A /* YXPicChartGraphicsShowCollCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXPicChartGraphicsShowCollCell.h; sourceTree = "<group>"; };
 		847FB8C4249370A00083A71A /* YXPicChartGraphicsShowCollCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXPicChartGraphicsShowCollCell.m; sourceTree = "<group>"; };
 		847FB8C5249370A00083A71A /* YXPicChartGraphicsShowCollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YXPicChartGraphicsShowCollCell.xib; sourceTree = "<group>"; };
+		84F26A0524ED082700769DAE /* YXGraphicsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXGraphicsVC.h; sourceTree = "<group>"; };
+		84F26A0624ED082700769DAE /* YXGraphicsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGraphicsVC.m; sourceTree = "<group>"; };
+		84F26A0824ED086100769DAE /* YXGraphicTransformationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXGraphicTransformationVC.h; sourceTree = "<group>"; };
+		84F26A0924ED086100769DAE /* YXGraphicTransformationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXGraphicTransformationVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,10 @@
 				847FB881249359F20083A71A /* AppDelegate.m */,
 				847FB883249359F20083A71A /* SceneDelegate.h */,
 				847FB884249359F20083A71A /* SceneDelegate.m */,
+				84F26A0524ED082700769DAE /* YXGraphicsVC.h */,
+				84F26A0624ED082700769DAE /* YXGraphicsVC.m */,
+				84F26A0824ED086100769DAE /* YXGraphicTransformationVC.h */,
+				84F26A0924ED086100769DAE /* YXGraphicTransformationVC.m */,
 				847FB886249359F20083A71A /* ViewController.h */,
 				847FB887249359F20083A71A /* ViewController.m */,
 				847FB889249359F20083A71A /* Main.storyboard */,
@@ -340,7 +350,9 @@
 				840E608624B442BA00B8D77C /* YXPieChartLineGraphicsCenterView.m in Sources */,
 				840E608324B43F2300B8D77C /* YXPieChartLineGraphicsView.m in Sources */,
 				847FB8C22493706D0083A71A /* YXPicChartGraphicsShowCollView.m in Sources */,
+				84F26A0A24ED086100769DAE /* YXGraphicTransformationVC.m in Sources */,
 				847FB888249359F20083A71A /* ViewController.m in Sources */,
+				84F26A0724ED082700769DAE /* YXGraphicsVC.m in Sources */,
 				847FB8BF2493656F0083A71A /* YXPicChartGraphicsShowView.m in Sources */,
 				840E608924B444B700B8D77C /* YXPieChartLineGraphicsModel.m in Sources */,
 				847FB882249359F20083A71A /* AppDelegate.m in Sources */,
